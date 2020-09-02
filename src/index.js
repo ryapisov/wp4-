@@ -1,4 +1,8 @@
-import './style.scss'
+// JS
+import './js/'
 
-const element = document.querySelector('#root')
-element.innerHTML = "<h4>JS Aliens: Tестирование </h4>"
+// SCSS
+import './assets/scss/main.scss'
+
+// CSS (example)
+// import './assets/css/main.css'
