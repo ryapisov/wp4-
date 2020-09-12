@@ -1,8 +1,9 @@
-@import 'utils/libs';
-@import 'utils/vars';
-@import 'utils/mixins';
-@import 'utils/fonts';
-@import 'utils/reset';
+@import "~normalize.css";
+@import "utils/libs";
+@import "utils/vars";
+@import "utils/mixins";
+@import "utils/fonts";
+@import "utils/reset";
 
 html {
   line-height: $mainLineHeight;
@@ -18,6 +19,11 @@ html {
   @media screen and (max-width: $phoneWidth) {
     font-size: 14px;
   }
+}
+
+.root {
+  background: #797;
+  margin: 25px;
 }
 
 body {
